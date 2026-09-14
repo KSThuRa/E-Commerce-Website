@@ -1,0 +1,12 @@
+import { Product } from "@/types";
+
+export const products: Product[] = [
+  { id: 1, name: "Aero Runner", category: "Shoes", price: 129, oldPrice: 159, image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80", badge: "Best Seller", rating: 4.9, stock: 24, description: "Lightweight everyday sneakers with a clean modern silhouette." },
+  { id: 2, name: "Mono Watch", category: "Accessories", price: 189, image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=900&q=80", badge: "New", rating: 4.8, stock: 12, description: "Minimal stainless steel watch designed for everyday wear." },
+  { id: 3, name: "Cloud Chair", category: "Home", price: 349, oldPrice: 399, image: "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=900&q=80", rating: 4.7, stock: 8, description: "A sculptural lounge chair with soft curves and premium comfort." },
+  { id: 4, name: "Studio Headphones", category: "Tech", price: 229, image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=900&q=80", badge: "Popular", rating: 4.9, stock: 31, description: "Immersive wireless headphones with balanced studio sound." },
+  { id: 5, name: "Daily Tote", category: "Bags", price: 79, image: "https://images.unsplash.com/photo-1594223274512-ad4803739b7c?auto=format&fit=crop&w=900&q=80", rating: 4.6, stock: 45, description: "Structured canvas tote for workdays, travel and weekends." },
+  { id: 6, name: "Aura Lamp", category: "Home", price: 119, image: "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=900&q=80", rating: 4.7, stock: 19, description: "Warm ambient lighting with a timeless, compact form." },
+  { id: 7, name: "Form Hoodie", category: "Clothing", price: 94, oldPrice: 110, image: "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?auto=format&fit=crop&w=900&q=80", badge: "Sale", rating: 4.8, stock: 37, description: "Heavyweight cotton hoodie with a relaxed premium fit." },
+  { id: 8, name: "Terra Bottle", category: "Lifestyle", price: 42, image: "https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=900&q=80", rating: 4.8, stock: 60, description: "Double-wall insulated bottle for all-day hydration." }
+];
